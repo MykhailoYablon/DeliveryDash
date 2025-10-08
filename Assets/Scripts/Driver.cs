@@ -12,8 +12,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
         Move();
 
 
-
-
     }
 
     void Move()
@@ -39,6 +37,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
         else if (Keyboard.current.dKey.isPressed)
         {
             steer = -1f;
+        }
+
+        if (Keyboard.current.leftShiftKey.isPressed) {
+            move = 1.5f;
         }
 
 
