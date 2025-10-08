@@ -370,6 +370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7adaac900283d6d4bb3d2b1a03393c1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  steerSpeed: 1.5
+  moveSpeed: 0.05
 --- !u!212 &1205608659
 SpriteRenderer:
   m_ObjectHideFlags: 0
